@@ -54,5 +54,7 @@ class ContentCbwEasyCarousel extends \ContentElement
 		{
 			$GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/easy_carousel/assets/js/jquery.carouFredSel-6.1.0-packed.js|static';
 		}
+		
+		$this->Template->easycarousel_id = $this->cbw_easycarousel_id;
 	}
 }
