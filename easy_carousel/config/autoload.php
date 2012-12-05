@@ -17,7 +17,7 @@
 ClassLoader::addClasses(array
 (
 	// Modules
-	'Contao\ContentCbwEasyCarousel'      => 'system/modules/easy-carousel/elements/ContentCbwEasyCarousel.php',
+	'Contao\ContentCbwEasyCarousel'      => 'system/modules/easy_carousel/elements/ContentCbwEasyCarousel.php',
 ));
 
 
@@ -26,5 +26,7 @@ ClassLoader::addClasses(array
  */
 TemplateLoader::addFiles(array
 (
-	'ce_cbw_easycarousel'			=> 'system/modules/easy-carousel/templates',
+	'ce_cbw_easycarousel'			=> 'system/modules/easy_carousel/templates',
 ));
+
+?>

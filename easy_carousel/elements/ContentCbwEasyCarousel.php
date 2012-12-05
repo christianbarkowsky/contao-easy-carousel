@@ -52,7 +52,7 @@ class ContentCbwEasyCarousel extends \ContentElement
 	{
 		if (TL_MODE == 'FE')
 		{
-			$GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/easy-carousel/assets/js/jquery.carouFredSel-6.1.0-packed.js|static';
+			$GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/easy_carousel/assets/js/jquery.carouFredSel-6.1.0-packed.js|static';
 		}
 	}
 }
