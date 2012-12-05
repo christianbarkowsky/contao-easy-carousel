@@ -1,0 +1,11 @@
+
+<script>
+  (function($) {
+    $(document).ready(function() {
+      $("#wrap-box").carouFredSel({ auto: false, prev: '#prev2', next: '#next2' });
+    });
+  })(jQuery);
+</script>
+
+<div class="controls"><a id="prev2" class="prev" href="#">&lt;</a>
+<a id="next2" class="next" href="#">&gt;</a></div>
